@@ -55,7 +55,7 @@ const News = ({ simplified }) => {
                       height: 100,
                     }}
                     src={(image && image?.thumbnail?.contentUrl) || demoImage}
-                    alt="News Image"
+                    alt="News"
                   />
                 </div>
                 <p>

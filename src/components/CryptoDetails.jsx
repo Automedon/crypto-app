@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import HTMLReactParser from "html-react-parser";
 import { useParams } from "react-router-dom";
 import millify from "millify";
@@ -35,7 +36,7 @@ const Cryptocurrencies = () => {
 
   if (isFetching) return "Loading ...";
 
-  const time = ["3h", "24h", "7d", "30d", "1y", "3m", "3y", "5y"];
+  const time = ["24h", "7d", "30d", "1y", "5y"];
 
   const stats = [
     {

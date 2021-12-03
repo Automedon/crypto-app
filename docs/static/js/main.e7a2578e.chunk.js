@@ -1082,11 +1082,6 @@
                           children: [
                             Object(N.jsx)(j.a, {
                               exact: !0,
-                              path: "/",
-                              children: Object(N.jsx)(W, {}),
-                            }),
-                            Object(N.jsx)(j.a, {
-                              exact: !0,
                               path: "/exchanges",
                               children: Object(N.jsx)(z, {}),
                             }),
@@ -1104,6 +1099,10 @@
                               exact: !0,
                               path: "/news",
                               children: Object(N.jsx)(ye, {}),
+                            }),
+                            Object(N.jsx)(j.a, {
+                              path: "/",
+                              children: Object(N.jsx)(W, {}),
                             }),
                           ],
                         }),
@@ -1163,4 +1162,4 @@
   },
   [[312, 1, 2]],
 ]);
-//# sourceMappingURL=main.0a45e883.chunk.js.map
+//# sourceMappingURL=main.e7a2578e.chunk.js.map

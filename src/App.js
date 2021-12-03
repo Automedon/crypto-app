@@ -21,9 +21,6 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Switch>
-              <Route exact path="/">
-                <Homepage />
-              </Route>
               <Route exact path="/exchanges">
                 <Exchanges />
               </Route>
@@ -35,6 +32,9 @@ const App = () => {
               </Route>
               <Route exact path="/news">
                 <News />
+              </Route>
+              <Route path="/">
+                <Homepage />
               </Route>
             </Switch>
           </div>

@@ -216,6 +216,7 @@
                               header: Object(N.jsxs)(
                                 T.a,
                                 {
+                                  style: { width: "100%" },
                                   children: [
                                     Object(N.jsxs)(P.a, {
                                       span: 6,
@@ -1162,4 +1163,4 @@
   },
   [[312, 1, 2]],
 ]);
-//# sourceMappingURL=main.e7a2578e.chunk.js.map
+//# sourceMappingURL=main.99167ce2.chunk.js.map
